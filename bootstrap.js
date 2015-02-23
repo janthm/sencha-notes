@@ -662,6 +662,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "Notes.model.Note": [],
   "Notes.store.Notes": [],
   "Notes.view.Main": [],
+  "Notes.view.NoteEditor": [],
   "Notes.view.NotesList": [],
   "Notes.view.NotesListContainer": []
 });
@@ -1389,6 +1390,9 @@ Ext.ClassManager.addNameAliasMappings({
   "Notes.store.Notes": [],
   "Notes.view.Main": [
     "widget.main"
+  ],
+  "Notes.view.NoteEditor": [
+    "widget.noteeditor"
   ],
   "Notes.view.NotesList": [
     "widget.noteslist"
